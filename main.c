@@ -3,6 +3,8 @@
 int
 main (void)
 {
-  hello ("world");
+  int s = structuralMethod();
+  hello ("world" + s);
+  
   return 0;
 }
